@@ -1,7 +1,7 @@
 import java.io.File
 
-import org.biojava.nbio.core.sequence.DNASequence
 import org.biojava.nbio.core.sequence.io.FastaReaderHelper
+
 object genomeCounter{
 
   def getListofFile(dir: String,filePattern: String): List[File] ={
@@ -19,15 +19,22 @@ object genomeCounter{
   }
   
   def getFastaFiles(files: List[File]) = {
+    files.map( f =>(
+                    {val basename = f.getName()
+                      basename.substring(0,basename.lastIndexOf('.'))},
+                    FastaReaderHelper.readFastaDNASequence(f)
+                  )
+              ).toMap
   }
+
       
 
   def main(args:Array[String]): Unit = {
-    val dirGenome = "/bio/db/fasta/genome/"
+    val dirGenome = "."///bio/db/fasta/genome/"
     val genomeFile = """.*\.genome$"""
 
-    val genomeList = getListofFile(dirGenome,genomeFile)
-                    .map( f => FastaReaderHelper.readFastaDNASequence(f))
+    val genomeList = getFastaFiles(getListofFile(dirGenome,genomeFile))
+
       
     println(genomeList)
     

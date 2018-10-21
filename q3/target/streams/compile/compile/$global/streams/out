@@ -1,7 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q3/src/main/scala/q3.scala:2:16: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport java.io.InputStream[0m
-[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q3/src/main/scala/q3.scala:4:39: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.biojava.nbio.core.sequence.DNASequence[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/scala/q3.scala:24:53: value lastIndexof is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m                      basename.substring(0,basename.lastIndexof('.'))},[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
