@@ -1,12 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/ban/Desktop/test/scala/q3/src/main/scala/q3.scala:7:16: implicit conversion method str2DNA should be enabled[0m
-[0m[[0m[33mwarn[0m] [0m[0mby making the implicit value scala.language.implicitConversions visible.[0m
-[0m[[0m[33mwarn[0m] [0m[0mThis can be achieved by adding the import clause 'import scala.language.implicitConversions'[0m
-[0m[[0m[33mwarn[0m] [0m[0mor by setting the compiler option -language:implicitConversions.[0m
-[0m[[0m[33mwarn[0m] [0m[0mSee the Scaladoc for value scala.language.implicitConversions for a discussion[0m
-[0m[[0m[33mwarn[0m] [0m[0mwhy the feature should be explicitly enabled.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  implicit def str2DNA(seq: String) = new DNASequence(seq,AmbiguityDNACompoundSet.getDNACompoundSet)[0m
+[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q3/src/main/scala/q3.scala:2:16: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport java.io.InputStream[0m
 [0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/ban/Desktop/test/scala/q3/src/main/scala/q3.scala:3:53: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.biojava.nbio.core.sequence.{DNASequence, ProteinSequence}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q3/src/main/scala/q3.scala:4:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.biojava.nbio.core.sequence.DNASequence[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

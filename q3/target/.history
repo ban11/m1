@@ -78,3 +78,7 @@ show discoveredMainClasses
 run
 :exit
 exit
+console
+exit
+console
+exit
