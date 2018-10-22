@@ -1,3 +1,7 @@
+organization := "com.github.ban11"
+
+name := "q3"
+
 scalaVersion := "2.12.6"
 
 scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Xlint")

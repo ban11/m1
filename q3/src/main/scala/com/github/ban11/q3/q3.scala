@@ -1,8 +1,8 @@
+package com.github.ban11.q3
+
 import java.io.File
 
-import org.biojava.nbio.core.sequence.io.FastaReaderHelper
-
-object genomeCounter{
+object GenomeCounter{
 
   def getListofFile(dir: String,filePattern: String): List[File] ={
     val d = new File(dir)
@@ -22,7 +22,7 @@ object genomeCounter{
     files.map( f =>(
                     {val basename = f.getName()
                       basename.substring(0,basename.lastIndexOf('.'))},
-                    FastaReaderHelper.readFastaDNASequence(f)
+                      ExFastaReaderHelper.readFastaAmDNASequence(f)
                   )
               ).toMap
   }

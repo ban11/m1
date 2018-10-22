@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/scala/q3.scala:24:53: value lastIndexof is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m                      basename.substring(0,basename.lastIndexof('.'))},[0m
-[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/java/com/github/ban11/q3/ExFastaReaderHelper.java:23:1: シンボルを見つけられません[0m
+[0m[[0m[31merror[0m] [0m[0m  シンボル:   クラス GenericFastaHeaderParser[0m
+[0m[[0m[31merror[0m] [0m[0m  場所: クラス com.github.ban11.q3.ExFastaReaderHelper[0m
+[0m[[0m[31merror[0m] [0m[0m				new GenericFastaHeaderParser<DNASequence, NucleotideCompound>(),[0m

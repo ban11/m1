@@ -1,7 +1,17 @@
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/q3_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	genomeCounter$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/genomeCounter$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	genomeCounter.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/genomeCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ban11/q3/GenomeCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github/ban11/q3/GenomeCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ban11/q3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github/ban11/q3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ban11/q3/GenomeCounter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github/ban11/q3/GenomeCounter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ban11/q3/ExFastaReaderHelper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github/ban11/q3/ExFastaReaderHelper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ban11[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q3/target/scala-2.12/classes/com/github/ban11[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
