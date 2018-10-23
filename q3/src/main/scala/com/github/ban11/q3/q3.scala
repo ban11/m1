@@ -34,28 +34,35 @@ object GenomeCounter{
   def main(args:Array[String]): Unit = {
     val dirGenome = "."///bio/db/fasta/genome/"
     val genomeFile = """.*\.genome$"""
+    val genomeList = getListofFile(dirGenome,genomeFile)
 
-    val fileList = getListofFile(dirGenome,genomeFile)
-    
-    val genome = fileList.view
-                         .map{ f => getFasta(f).mapValues(m => m.mapValues(g => g.size).values.sum)}
-                         .toList match {
-                           case Nil => Map(""->0)
-                           case x::xs => xs.foldLeft(x){
-                             (a,b) => a ++ b
+    val genome = genomeList.view
+                           .map{ f => getFasta(f).mapValues(m => m.mapValues(g => g.size).values.sum)}
+                           .toList match {
+                             case Nil => Map(""->0)
+                             case x::xs => xs.foldLeft(x){
+                               (a,b) => a ++ b
+                             }
                            }
-                         }
 
-                           
+                               
     
     println(genome)
 
-    val dirGene ="/bio/db/fasta/genes/"
+    val dirGene = "."///bio/db/fasta/genes/"
     val geneFile = """.*\.nuc$""" 
-
     val geneList =getListofFile(dirGene,geneFile)
-    println(geneList.length)
-
+    
+    val gene = geneList.view
+                       .map{ f => getFasta(f).mapValues(m => m.size)}
+                       .toList match {
+                         case Nil => Map(""->0)
+                         case x::xs => xs.foldLeft(x){
+                           (a,b) => a ++ b
+                         }
+                       }
+    
+    println(gene)
 
 
 
