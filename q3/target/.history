@@ -82,3 +82,13 @@ console
 exit
 console
 exit
+quit
+:exit
+quit
+exit
+console
+:exit
+quit
+exit
+console
+exit

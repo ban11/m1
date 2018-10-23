@@ -1,6 +1,8 @@
 package com.github.ban11.q3
 
+import scala.collection.JavaConversions._
 import java.io.File
+import org.biojava.nbio.core.sequence.DNASequence
 
 object GenomeCounter{
 
@@ -17,14 +19,14 @@ object GenomeCounter{
       List[File]()
     }
   }
+
+  def getFasta (f: File):Map[String,Map[String,DNASequence]] ={ 
+    val basename = f.getName()
+    Map(basename.substring(0,basename.lastIndexOf('.')) -> ExFastaReaderHelper.readFastaAmDNASequence(f).toMap)
+  }
   
-  def getFastaFiles(files: List[File]) = {
-    files.map( f =>(
-                    {val basename = f.getName()
-                      basename.substring(0,basename.lastIndexOf('.'))},
-                      ExFastaReaderHelper.readFastaAmDNASequence(f)
-                  )
-              ).toMap
+  def f(files: List[File]):Unit = {
+    
   }
 
       
@@ -33,12 +35,20 @@ object GenomeCounter{
     val dirGenome = "."///bio/db/fasta/genome/"
     val genomeFile = """.*\.genome$"""
 
-    val genomeList = getFastaFiles(getListofFile(dirGenome,genomeFile))
+    val fileList = getListofFile(dirGenome,genomeFile)
+    
+    val genome = fileList.view
+                         .map{ f => getFasta(f).mapValues(m => m.mapValues(g => g.size).values.sum)}
+                         .toList match {
+                           case Nil => Map(""->0)
+                           case x::xs => xs.foldLeft(x){
+                             (a,b) => a ++ b
+                           }
+                         }
 
-      
-    println(genomeList)
+                           
     
-    
+    println(genome)
 
     val dirGene ="/bio/db/fasta/genes/"
     val geneFile = """.*\.nuc$""" 

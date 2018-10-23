@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/java/com/github/ban11/q3/ExFastaReaderHelper.java:23:1: シンボルを見つけられません[0m
-[0m[[0m[31merror[0m] [0m[0m  シンボル:   クラス GenericFastaHeaderParser[0m
-[0m[[0m[31merror[0m] [0m[0m  場所: クラス com.github.ban11.q3.ExFastaReaderHelper[0m
-[0m[[0m[31merror[0m] [0m[0m				new GenericFastaHeaderParser<DNASequence, NucleotideCompound>(),[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/scala/com/github/ban11/q3/q3.scala:25:102: object JavaConversions in package collection is deprecated (since 2.12.0): use JavaConverters[0m
+[0m[[0m[33mwarn[0m] [0m[0m    Map(basename.substring(0,basename.lastIndexOf('.')) -> ExFastaReaderHelper.readFastaAmDNASequence(f).toMap)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q3/src/main/scala/com/github/ban11/q3/q3.scala:41:81: object JavaConversions in package collection is deprecated (since 2.12.0): use JavaConverters[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         .map{ f => getFasta(f).mapValues(m => m.mapValues(g => g.size).values.sum)}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
