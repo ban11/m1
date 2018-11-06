@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q2/src/main/scala/q2.scala:31:12: not found: value EcoRI[0m
+[0m[[0m[31merror[0m] [0m[0m      case EcoRI => ("GAATTC", 1)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q2/src/main/scala/q2.scala:32:12: not found: value HindIII[0m
+[0m[[0m[31merror[0m] [0m[0m      case HindIII => ("AAGCTT",1)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q2/src/main/scala/q2.scala:33:12: not found: value BamHI[0m
+[0m[[0m[31merror[0m] [0m[0m      case BamHI => ("GGATC",1)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q2/src/main/scala/q2.scala:34:12: not found: value NotI[0m
+[0m[[0m[31merror[0m] [0m[0m      case NotI => ("GCGGCCGC",2)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

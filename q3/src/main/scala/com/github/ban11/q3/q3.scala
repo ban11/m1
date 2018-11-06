@@ -32,7 +32,7 @@ object GenomeCounter{
       
 
   def main(args:Array[String]): Unit = {
-    val dirGenome = "."///bio/db/fasta/genome/"
+    val dirGenome = "/bio/db/fasta/genome/"
     val genomeFile = """.*\.genome$"""
     val genomeList = getListofFile(dirGenome,genomeFile)
 
@@ -49,7 +49,7 @@ object GenomeCounter{
     
     println(genome)
 
-    val dirGene = "."///bio/db/fasta/genes/"
+    val dirGene = "/bio/db/fasta/genes/"
     val geneFile = """.*\.nuc$""" 
     val geneList =getListofFile(dirGene,geneFile)
     
