@@ -1,10 +1,12 @@
+import java.io._
 import scala.xml._
 
+
 object KEGGmlParcer {
+  implicit class Graph(val src: List[(String,String)]) {
+  }
 
-
-  def main(args: Array[String]): Unit = {
-    val path = "eco/eco00010.xml" 
+  def getDigraphFromFile(path: String): List[(String,String)]  = {
     val xmlFile = XML.load(path)
     val reactions = xmlFile \ "reaction"
     val reactionPaths = 
@@ -18,8 +20,41 @@ object KEGGmlParcer {
           .flatMap(tp =>  for(s <- tp._1;p <- tp._2) yield (s,p))
           .map(tp => ((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail, 
                       (tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail))
-    println(reactionPaths)
-     
+    reactionPaths
+  }
+
+  def getDigraph(path: String): List[(String,String)] = {
+    val dir = new File(path)
+    val files = dir.listFiles().map(_.toString).toList
+    val reactionPaths = files.flatMap(file => getDigraphFromFile(file))
+    reactionPaths 
+  }
+
+  def getGraphFromFile(path: String): List[(String,String)]  = {
+    val xmlFile = XML.load(path)
+    val reactions = xmlFile \ "reaction"
+    val reactionPaths = 
+      reactions.foldLeft(Nil: List[(NodeSeq,NodeSeq)]){
+        (x,y) => {
+           (y \ "substrate", y \ "product") :: x
+           }
+        }
+          .flatMap(tp =>  for(s <- tp._1;p <- tp._2) yield (s,p))
+          .map(tp => ((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail, 
+                      (tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail))
+    reactionPaths
+  }
+  def getGraph(path: String): List[(String,String)] = {
+    val dir = new File(path)
+    val files = dir.listFiles().map(_.toString).toList
+    val reactionPaths = files.flatMap(file => getGraphFromFile(file))
+    reactionPaths 
+  }
+
+  def main(args: Array[String]): Unit = {
+    val path = "./eco"
+    val reactionGraph = getGraph(path)
+    println(reactionGraph.length)
   }
 }
 
