@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q7/src/main/scala/q7.scala:20:30: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.xml.NodeSeq[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m                      (tp._2 \ "@name").toString.dropWhile{ _ != ":"}))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
