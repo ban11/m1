@@ -1,10 +1,21 @@
 import java.io._
 import scala.xml._
 
+abstract class GraphBase[T] {
+  case class Edge(n1:Node, n2: Node) {
+    def toTuple= (n1.value, n2.value)
+  }
+  case class Node(value:T) {
+  }
+}
+
+class Graph[T] extends GraphBase[T] {
+}
+
+
+
 
 object KEGGmlParcer {
-  implicit class Graph(val src: List[(String,String)]) {
-  }
 
   def getDigraphFromFile(path: String): List[(String,String)]  = {
     val xmlFile = XML.load(path)

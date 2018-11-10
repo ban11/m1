@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:4:16: `implicit' modifier cannot be used for top-level objects[0m
-[0m[[0m[31merror[0m] [0m[0mimplicit class Graph(val src: List[(String,String)]) {[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:19:49: value -- is not a member of List[T][0m
+[0m[[0m[31merror[0m] [0m[0m    case g: GraphBase[T]  => (nodes.keys.toList -- g.nodes.keys.toList == Nil &&[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:20:53: value -- is not a member of List[(T, T)][0m
+[0m[[0m[31merror[0m] [0m[0m                               edges.map(_.toTuple) -- g.edges.map(_.toTuple) == Nil)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
