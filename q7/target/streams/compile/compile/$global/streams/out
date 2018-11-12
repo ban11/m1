@@ -1,7 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:19:49: value -- is not a member of List[T][0m
-[0m[[0m[31merror[0m] [0m[0m    case g: GraphBase[T]  => (nodes.keys.toList -- g.nodes.keys.toList == Nil &&[0m
-[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:20:53: value -- is not a member of List[(T, T)][0m
-[0m[[0m[31merror[0m] [0m[0m                               edges.map(_.toTuple) -- g.edges.map(_.toTuple) == Nil)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q7/src/main/scala/graph.scala:5:7: overriding method toString in class Object of type ()String;[0m
+[0m[[0m[31merror[0m] [0m[0m method toString needs `override' modifier[0m
+[0m[[0m[31merror[0m] [0m[0m  def toString = value[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

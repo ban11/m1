@@ -1,4 +1,7 @@
+import scala.annotation.tailrec
+
 object Dijest {
+  @tailrec
   def digest(seq: List[Char], pattern: List[Char], ans: List[Int] = Nil): List[Int] = seq match {
     case x::xs if(seq.length >= pattern.length && matching(seq.take(pattern.length), pattern))  => { 
                                                val ans2 = seq.length :: ans
@@ -7,7 +10,7 @@ object Dijest {
     case x::xs if(seq.length >= pattern.length && !matching(seq.take(pattern.length), pattern)) => digest(xs,pattern,ans)
     case _ => ans.reverse
   }
- 
+  @tailrec
   def matching(seq: List[Char], pattern: List[Char]): Boolean = seq match {
     case y::ys if( y == pattern.head ) => matching(ys, pattern.tail)
     case y::ys if( y != pattern.head ) => false
@@ -35,6 +38,7 @@ object Dijest {
       case _ => ("", 0)
     }
 */    
+    val pattern =("AAKAA", 1)
     val seq = "AAKAAAKAAKAAAAKAAAA"
     
     val site = digest(seq.toList, pattern._1.toList)
