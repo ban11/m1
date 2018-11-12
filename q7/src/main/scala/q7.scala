@@ -2,8 +2,8 @@ import java.io._
 import scala.xml._
 
 object KEGGmlParcer {
-
-  def getDipathFromFile(path: String): List[Edge] = {
+/*
+  def getDipathFromFile(path: String): List[(String,String)] = {
     val xmlFile = XML.load(path)
     val reactions = xmlFile \ "reaction"
     val reactionPaths = 
@@ -15,20 +15,20 @@ object KEGGmlParcer {
            }
         }
           .flatMap(tp =>  for(s <- tp._1;p <- tp._2) yield (s,p))
-          .map(tp => (Node((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail), 
-                      Node((tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail)))
-     val edges =  reactionPaths.map(p => Edge(p._1, p._2))
+          .map(tp => ((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail, 
+                      (tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail))
+    val edges =  reactionPaths.map(p => (p._1, p._2))
     edges
   }
 
-  def getDipath(path: String): List[Edge] = {
+  def getDipath(path: String): List[(String,String)] = {
     val dir = new File(path)
     val files = dir.listFiles().map(_.toString).toList
     val reactionPaths = files.flatMap(file => getDipathFromFile(file))
     reactionPaths
   }
-
-  def getPathFromFile(path: String): List[Edge]  = {
+*/
+  def getPathFromFile(path: String): List[(String,String)]  = {
     val xmlFile = XML.load(path)
     val reactions = xmlFile \ "reaction"
     val reactionPaths = 
@@ -38,22 +38,35 @@ object KEGGmlParcer {
            }
         }
           .flatMap(tp =>  for(s <- tp._1;p <- tp._2) yield (s,p))
-          .map(tp => (Node((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail), 
-                      Node((tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail)))
-    val edges = reactionPaths.map(p => Edge(p._1, p._2))
+          .map(tp => ((tp._1 \ "@name").toString.dropWhile{ _ != ':'}.tail, 
+                      (tp._2 \ "@name").toString.dropWhile{ _ != ':'}.tail))
+    val edges = reactionPaths.map(p => (p._1, p._2))
     edges
   }
-  def getPath(path: String): List[Edge] = {
+  def getPath(path: String): List[(String,String)] = {
     val dir = new File(path)
     val files = dir.listFiles().map(_.toString).toList
     val reactionPaths = files.flatMap(file => getPathFromFile(file))
     reactionPaths
   }
-
+  
+  def graphFromPath(path:List[(String,String)]): Graph[String] = {
+    val path2 = path ::: path.map(e => (e._2, e._1))
+    val graphMap = path2.groupBy(_._1).map{case (k,v) => (k,v.map(e =>e._2))}
+    
+    val graph = new Graph[String]
+    graph.g = graphMap
+    graph
+  }
+/*
+  def 
+  
+*/
   def main(args: Array[String]): Unit = {
     val path = "./eco"
     val reactionPath = getPath(path)
-    println(reactionPath.length)
+    val gr = graphFromPath(reactionPath)
+    println(gr.g.size)
   }
 }
 

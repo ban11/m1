@@ -1,5 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q7/src/main/scala/graph.scala:5:7: overriding method toString in class Object of type ()String;[0m
-[0m[[0m[31merror[0m] [0m[0m method toString needs `override' modifier[0m
-[0m[[0m[31merror[0m] [0m[0m  def toString = value[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:54:31: value map is not a member of (String, String)[0m
+[0m[[0m[31merror[0m] [0m[0m    val path2 = path ::: path.map(e => (e._2, e._1))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

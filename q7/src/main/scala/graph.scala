@@ -1,23 +1,17 @@
-case class Edge(n1: Node, n2:Node) {
-  def toTuple = (n1.value, n2.value)
-}
-case class Node(value: String) {
-  override def toString = value
-}
+class Graph[T] {
+  type Node = T
+  type GraphMap = Map[Node,List[Node]]
+  var g:GraphMap = Map()
+  def DFS(start: Node): List[Node] = {
 
-abstract class GraphBase (val edges: List[Edge], val nodes: List[Node]) {
-  def targets(gr: GraphBase, n :Node): List[Node]
-}
-
-
-class Digraph(edges: List[Edge], nodes: List[Node]) extends GraphBase(edges, nodes) {
-  override def target(gr: Digraph,  node :Node): List[Node] = {
-
+    def DFS0(v: Node, visited: List[Node]): List[Node] = {
+      if (visited.contains(v))
+        visited
+      else {
+        val neighbours: List[Node] = g(v).filterNot(visited.contains)
+        neighbours.foldLeft(v :: visited)((b,a) => DFS0(a,b))
+      }
+    }
+    DFS0(start, List()).reverse
   }
 }
-
-class Graph(edges: List[Edge], nodes: List[Node]) extends GraphBase(edges, nodes) {
-  override def target(gr: Graph, node :Node): List[Node] = {
-  }
-}
-
