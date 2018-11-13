@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:54:31: value map is not a member of (String, String)[0m
-[0m[[0m[31merror[0m] [0m[0m    val path2 = path ::: path.map(e => (e._2, e._1))[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:66:39: missing parameter type for expanded function ((x$7) => x$7.length)[0m
+[0m[[0m[31merror[0m] [0m[0m    gr.intoComponents.foreach(println(_.length))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

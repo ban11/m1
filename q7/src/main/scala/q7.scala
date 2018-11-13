@@ -58,15 +58,12 @@ object KEGGmlParcer {
     graph.g = graphMap
     graph
   }
-/*
-  def 
-  
-*/
+
   def main(args: Array[String]): Unit = {
     val path = "./eco"
     val reactionPath = getPath(path)
     val gr = graphFromPath(reactionPath)
-    println(gr.g.size)
+    gr.intoComponents.foreach(println)
   }
 }
 
