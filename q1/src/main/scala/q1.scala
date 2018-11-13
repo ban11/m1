@@ -31,13 +31,13 @@ object Transformer {
     def trans2GeneticCode: List[String] = aac.toList match {
       case Nil => List("")
       case x::xs => xs.foldLeft(x.toGeneticCode){
-        (x,y) => x.flatMap(e => y.toGeneticCode.map(g => e + g ))
+        (a,b) => for(as <- a;bs <- b.toGeneticCode) yield as + bs 
       }
     }
   }
   
   def main(args: Array[String]): Unit = {
-    val aac = "KK" 
+    val aac = "LFPWM" 
     val lst = aac.trans2GeneticCode
     lst.foreach(println)
   }

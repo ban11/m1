@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q1/src/main/scala/q1.scala:34:19: value flatMap is not a member of Char[0m
+[0m[[0m[31merror[0m] [0m[0m        for(xx <- x;yy <- y.toGeneticCode) yield xx + yy[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q1/src/main/scala/q1.scala:34:27: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m        for(xx <- x;yy <- y.toGeneticCode) yield xx + yy[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

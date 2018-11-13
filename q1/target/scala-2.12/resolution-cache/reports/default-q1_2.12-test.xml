@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181020153842"/>
+		date="20181113143132"/>
 	<dependencies>
 		<module organisation="org.biojava" name="biojava-core">
 			<revision name="5.1.1" status="release" pubdate="20180929081252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.biojava.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">

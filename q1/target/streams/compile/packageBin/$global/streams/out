@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/q1_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transformer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/classes/Transformer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transformer$aminoAcid.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/classes/Transformer$aminoAcid.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transformer$aminoAcidChain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/classes/Transformer$aminoAcidChain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transformer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/classes/Transformer.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
