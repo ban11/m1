@@ -19,3 +19,8 @@ console
 run
 console
 run
+:quit
+exit
+run
+:quit
+exit

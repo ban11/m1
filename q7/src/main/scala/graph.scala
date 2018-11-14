@@ -2,7 +2,7 @@ class Graph[T] {
   type Node = T
   type GraphMap = Map[Node,List[Node]]
   var g:GraphMap = Map()
-  def nodes: List[Node] = g.keys.toList
+  lazy val nodes: List[Node] = g.keys.toList
   def DFS(start: Node): List[Node] = {
 
     def DFS0(v: Node, visited: List[Node]): List[Node] = {
