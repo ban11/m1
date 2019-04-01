@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q4/src/main/scala/KOParcer.scala:28:7: not found: value briteModules[0m
+[0m[[0m[31merror[0m] [0m[0m    | briteModules[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/hiroki/Desktop/scala/m1/q4/src/main/scala/KOParcer.scala:77:9: local val f in method main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val f = new FileReader(args(0))[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
