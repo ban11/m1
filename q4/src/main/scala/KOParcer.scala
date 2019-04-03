@@ -1,4 +1,4 @@
-import scala.util.parsing.combinator._
+iport scala.util.parsing.combinator._
 import java.io.FileReader
 
 class KO extends JavaTokenParsers {

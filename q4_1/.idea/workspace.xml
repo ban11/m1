@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54eb0478-b8c8-45d9-8278-ec949b286e45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/KOParcer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/project/target/config-classes/$232b1b24e3c9aea5f46a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/project/target/config-classes/$232b1b24e3c9aea5f46a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/project/target/config-classes/$232b1b24e3c9aea5f46a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$034bb7a3ae7513a559f9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$034bb7a3ae7513a559f9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$034bb7a3ae7513a559f9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$8267cda08ef85330080c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$8267cda08ef85330080c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$8267cda08ef85330080c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$9ee7a8fd535acec3e34e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$9ee7a8fd535acec3e34e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$9ee7a8fd535acec3e34e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$b2b43718732c0c9a9da1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$b2b43718732c0c9a9da1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/config-classes/$b2b43718732c0c9a9da1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q1-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/q1-assembly-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/q1-assembly-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/default/q1_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/default/q1_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/default/q1_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/default/q1_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/assembly-inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/assembly-inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/assembly-outputs" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/assembly-outputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/assembly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/testListeners/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/testListeners/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q1/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q1/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q3_2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q3_2/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q3_2/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q3_2/src/main/scala/HelloWorld.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/project/target/config-classes/$4a28def54982ceaea85c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/project/target/config-classes/$4a28def54982ceaea85c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/project/target/config-classes/$4a28def54982ceaea85c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$a8e4a4584dd8abfb801c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$a8e4a4584dd8abfb801c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$a8e4a4584dd8abfb801c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$b960eaaa45c967e8cf59$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$b960eaaa45c967e8cf59.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$b960eaaa45c967e8cf59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$f7473da720f0b856f935$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$f7473da720f0b856f935.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/config-classes/$f7473da720f0b856f935.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q4-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q4-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q4-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q4-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q4-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/src/main/scala/KOParcer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/src/main/scala/KOParcer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q4/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../q4/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$0ec06791e5ddddc0205e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$0ec06791e5ddddc0205e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$0ec06791e5ddddc0205e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$2c6038c0abd67d551371$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$2c6038c0abd67d551371.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$2c6038c0abd67d551371.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$74964257d6ffd1a1041c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$74964257d6ffd1a1041c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$74964257d6ffd1a1041c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$8d33ea3bae84eada6f8c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$8d33ea3bae84eada6f8c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$8d33ea3bae84eada6f8c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$98cc49cf92b54b9adb89$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$98cc49cf92b54b9adb89.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$98cc49cf92b54b9adb89.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$c68111dcd2c1ff03c711$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$c68111dcd2c1ff03c711.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/config-classes/$c68111dcd2c1ff03c711.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q7-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q7-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q7-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/default/q7-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-q7-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/src/main/scala/q7.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/src/main/scala/KEGGmlParcer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3$$anonfun$apply$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3$$anonfun$apply$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$9$$anonfun$apply$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$9$$anonfun$apply$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/classes/KEGGmlParcer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/q7_2.11-0.1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/default/q7_2.11/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/default/q7_2.11/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/default/q7_2.11/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/default/q7_2.11/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.2.2/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.2.2/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.2.2/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.2.2/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/default-q7_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../q7/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../q7/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="q4_1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/KOParcer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/KOParcer.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/modules/q4_1-build.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="472" />
+    <option name="y" value="147" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="q4_1" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="q4_1 [file:/Users/ban/Desktop/M1/m1/q4_1/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="q4_1-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="1665592407" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2947818574" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54eb0478-b8c8-45d9-8278-ec949b286e45" name="Default Changelist" comment="" />
+      <created>1554101229290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554101229290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="472" y="147" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889868" visible="true" weight="0.2533137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5011013" side_tool="true" visible="true" weight="0.2533137" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32929516" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/KOParcer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>q4_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

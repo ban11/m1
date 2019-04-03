@@ -7,51 +7,51 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181113143132"/>
+		date="20190402143221"/>
 	<dependencies>
 		<module organisation="org.biojava" name="biojava-core">
-			<revision name="5.1.1" status="release" pubdate="20180929081252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.biojava.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="5.1.1" status="release" pubdate="20180929081252" resolver="public" artresolver="public" homepage="http://www.biojava.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="GNU LGPL v2" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
-				<metadata-artifact status="no" details="" size="6768" time="0" location="/Users/ban/.ivy2/cache/org.biojava/biojava-core/ivy-5.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="2128" time="561" location="/Users/ban/.ivy2/cache/org.biojava/biojava-core/ivy-5.1.1.xml" searched="true" original-local-location="/Users/ban/.ivy2/cache/org.biojava/biojava-core/ivy-5.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom"/>
 				<caller organisation="default" name="q1_2.12" conf="compile-internal, compile, provided, optional" rev="5.1.1" rev-constraint-default="5.1.1" rev-constraint-dynamic="5.1.1" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="biojava-core" type="jar" ext="jar" status="no" details="" size="483429" time="0" location="/Users/ban/.ivy2/cache/org.biojava/biojava-core/jars/biojava-core-5.1.1.jar">
+					<artifact name="biojava-core" type="jar" ext="jar" status="successful" details="" size="483429" time="1315" location="/Users/ban/.ivy2/cache/org.biojava/biojava-core/jars/biojava-core-5.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-slf4j-impl">
-			<revision name="2.6.2" status="release" pubdate="20160706115053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="2.6.2" status="release" pubdate="20160706115053" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="25505" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8882" time="493" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.6.2.xml" searched="true" original-local-location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom"/>
 				<caller organisation="org.biojava" name="biojava-core" conf="default, compile, runtime, master" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="5.1.1"/>
 				<artifacts>
-					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="22927" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/jars/log4j-slf4j-impl-2.6.2.jar">
+					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="successful" details="" size="22927" time="1009" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/jars/log4j-slf4j-impl-2.6.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-core">
-			<revision name="2.6.2" status="release" pubdate="20160706115021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="2.6.2" status="release" pubdate="20160706115021" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="30095" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom"/>
+				<metadata-artifact status="successful" details="" size="17811" time="497" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.6.2.xml" searched="true" original-local-location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom"/>
 				<caller organisation="org.biojava" name="biojava-core" conf="default, compile, runtime, master" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="5.1.1"/>
 				<artifacts>
-					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1191946" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.6.2.jar">
+					<artifact name="log4j-core" type="jar" ext="jar" status="successful" details="" size="1191946" time="2403" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.6.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
-			<revision name="2.6.2" status="release" pubdate="20160706113645" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="2.6.2" status="release" pubdate="20160706113645" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="25445" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8673" time="503" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.6.2.xml" searched="true" original-local-location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom"/>
 				<caller organisation="org.biojava" name="biojava-core" conf="default, compile, runtime, master" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="5.1.1"/>
 				<artifacts>
-					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="198736" time="0" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.6.2.jar">
+					<artifact name="log4j-api" type="jar" ext="jar" status="successful" details="" size="198736" time="1313" location="/Users/ban/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.6.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -79,11 +79,11 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.12.6" status="release" pubdate="20180427174006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/ban/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/ban/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
 				<caller organisation="default" name="q1_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="/Users/ban/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar"/>
+						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
 				</artifacts>
 			</revision>

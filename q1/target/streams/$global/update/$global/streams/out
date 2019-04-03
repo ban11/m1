@@ -19,8 +19,41 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.biojava#biojava-core;5.1.1 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.biojava#biojava-core;5.1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.biojava#biojava-core;5.1.1 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.biojava#biojava-core;5.1.1 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.biojava/biojava-core/5.1.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.biojava#biojava-core;5.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.biojava#biojava-core;5.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom (5.1.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.biojava#biojava-core;5.1.1!biojava-core.pom(pom.original) (561ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.biojava#biojava;5.1.1 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.biojava#biojava;5.1.1 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.biojava/biojava/5.1.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.biojava#biojava;5.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.biojava#biojava;5.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom (5.1.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.biojava#biojava;5.1.1!biojava.pom(pom.original) (667ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.biojava/biojava/5.1.1/jars/biojava.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/biojava/biojava/5.1.1/biojava-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.sbt/preloaded/org.biojava/biojava/5.1.1/jars/biojava.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/ban/.sbt/preloaded/org/biojava/biojava/5.1.1/biojava-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/biojava/biojava/5.1.1/biojava-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://oss.sonatype.org/content/repositories/snapshots/org/biojava/biojava/5.1.1/biojava-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.biojava/biojava-core/5.1.1/jars/biojava-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.biojava#biojava-core;5.1.1 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#q1_2.12;0.1.0-SNAPSHOT->org.biojava#biojava-core;5.1.1 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#q1_2.12;0.1.0-SNAPSHOT->org.biojava#biojava-core;5.1.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)][0m
@@ -38,8 +71,58 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-slf4j-impl;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-slf4j-impl;2.6.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-slf4j-impl;2.6.2 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-slf4j-impl;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-slf4j-impl/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.logging.log4j#log4j-slf4j-impl;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.logging.log4j#log4j-slf4j-impl;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom (2.6.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.6.2!log4j-slf4j-impl.pom(pom.original) (493ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.logging.log4j#log4j;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.logging.log4j#log4j;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom (2.6.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j;2.6.2!log4j.pom(pom.original) (619ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;9 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;9 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache#apache;9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache#apache;9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom (9)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache#apache;9!apache.pom(pom.original) (500ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.sbt/preloaded/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/ban/.sbt/preloaded/org/apache/apache/9/apache-9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/apache/apache/9/apache-9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://oss.sonatype.org/content/repositories/snapshots/org/apache/apache/9/apache-9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j/2.6.2/jars/log4j.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.sbt/preloaded/org.apache.logging.log4j/log4j/2.6.2/jars/log4j.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/ban/.sbt/preloaded/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://oss.sonatype.org/content/repositories/snapshots/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-slf4j-impl/2.6.2/jars/log4j-slf4j-impl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-slf4j-impl;2.6.2 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-slf4j-impl;2.6.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.logging.log4j#log4j-slf4j-impl;2.6.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.logging.log4j#log4j-slf4j-impl;2.6.2->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)][0m
@@ -54,8 +137,22 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.6.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-api;2.6.2 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-api/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.logging.log4j#log4j-api;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.logging.log4j#log4j-api;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom (2.6.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.6.2!log4j-api.pom(pom.original) (503ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-api/2.6.2/jars/log4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-api;2.6.2 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-api;2.6.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-api;2.6.2 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-api;2.6.2 [runtime->compile(*)][0m
@@ -63,8 +160,22 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.6.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-core;2.6.2 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.6.2 {runtime=[compile(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-core/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.logging.log4j#log4j-core;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.logging.log4j#log4j-core;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom (2.6.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.6.2!log4j-core.pom(pom.original) (497ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ban/.ivy2/local/org.apache.logging.log4j/log4j-core/2.6.2/jars/log4j-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.logging.log4j#log4j-core;2.6.2 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-core;2.6.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-core;2.6.2 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.biojava#biojava-core;5.1.1->org.apache.logging.log4j#log4j-core;2.6.2 [runtime->compile(*)][0m
@@ -534,19 +645,19 @@
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.6 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.12.6] org.scala-lang#scala-reflect;2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.12.6->org.scala-lang#scala-library;2.12.6 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.12.6->org.scala-lang#scala-library;2.12.6 [compile->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.12.6->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang#scala-reflect;2.12.6 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.12.6->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.12.6->org.scala-lang#scala-library;2.12.6 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)][0m
@@ -631,29 +742,49 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.6.2!log4j-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.6.2!log4j-slf4j-impl.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.biojava#biojava-core;5.1.1!biojava-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.6.2!log4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 219ms :: artifacts dl 2ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT compile produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT runtime produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT test produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT provided produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT optional produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT plugin produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT pom produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/ban/Desktop/test/scala/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (219ms resolve - 2ms download)[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.6.2!log4j-slf4j-impl.jar (1009ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.6.2!log4j-api.jar (1313ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/biojava/biojava-core/5.1.1/biojava-core-5.1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.biojava#biojava-core;5.1.1!biojava-core.jar (1315ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.6.2!log4j-core.jar (2403ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 9438ms :: artifacts dl 2404ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT compile produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT runtime produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT test produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT provided produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT optional produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT plugin produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT pom produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#q1_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/ban/Desktop/M1/m1/q1/target/scala-2.12/resolution-cache/reports/default-q1_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (9438ms resolve - 2404ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
 [0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies.[0m
 [0m[[0m[33mwarn[0m] [0m[0mRun 'evicted' to see detailed eviction warnings[0m

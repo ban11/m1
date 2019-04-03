@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/test/scala/m1/q7/src/main/scala/q7.scala:66:39: missing parameter type for expanded function ((x$7) => x$7.length)[0m
-[0m[[0m[31merror[0m] [0m[0m    gr.intoComponents.foreach(println(_.length))[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/M1/m1/q7/src/main/scala/KEGGmlParcer.scala:73:37: value getPath is not a member of object KEGGmlParcer[0m
+[0m[[0m[31merror[0m] [0m[0m    val reactionPath = KEGGmlParcer.getPath(path)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ban/Desktop/M1/m1/q7/src/main/scala/KEGGmlParcer.scala:74:27: value graphFromPath is not a member of object KEGGmlParcer[0m
+[0m[[0m[31merror[0m] [0m[0m    val gr = KEGGmlParcer.graphFromPath(reactionPath)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

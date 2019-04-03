@@ -78,3 +78,5 @@ show discoveredMainClasses
 run
 :exit
 exit
+assembly
+ls -l
